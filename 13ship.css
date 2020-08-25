@@ -1,13 +1,13 @@
-.ship-inner::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 1px;
 }
 
-.ship-inner::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   width: 1px;
   background: rgba(255,255,255,.1);
 }
 
-.ship-inner::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: rgba(255,255,255,.2);
   width: 1px;
 }
