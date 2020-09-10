@@ -1,0 +1,98 @@
+.sundev1 {
+  position: relative; 
+  margin-top: -100px; 
+  margin-left: -100px; 
+  width: 766px; 
+  height: 600px; 
+  background: rgba(255,255,255,1);
+}
+
+.sundev1 ob {
+  color: rgba(0,0,0,0); 
+  font-family: lust, serif; 
+  font-weight: 400; 
+  font-style: normal; 
+  text-transform: uppercase;  
+  letter-spacing: 3px; 
+  font-size: 90px; 
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #fff;
+}
+
+.devleft {
+  width: 300px; 
+  height: 600px; 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.suntop {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 8px;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+	justify-content: center;
+	align-items: center; 
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.sunbottom {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 8px;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+	justify-content: center;
+	align-items: center; 
+  margin-top: -50px;
+  margin-left: 40px;
+}
+
+.sunflow {
+  height: 600px;
+  width: 466px;
+  display: flex;
+	justify-content: center;
+	align-items: center; 
+  scroll-behavior: smooth;
+}
+
+.flowin {
+  height: 400px; 
+  width: 301px; 
+  overflow: auto; 
+  scroll-behavior: smooth;
+}
+
+.incopy {
+  width: 200px;
+  margin: 50px auto;
+  text-align: justify;
+  font-size: 10px;
+  line-height: 200%;
+}
+
+.flowin::-webkit-scrollbar {
+  width: 1px;
+}
+
+.flowin::-webkit-scrollbar-track {
+  width: 1px;
+  background: rgba(0,0,0,0.1);
+}
+
+.flowin::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.3);
+  width: 1px;
+}
