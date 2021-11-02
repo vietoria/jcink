@@ -209,7 +209,7 @@
   text-align: center;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  color: var(--light);
+  color: #db1244;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: clamp(8px, 1.5vw, 10px);
@@ -238,7 +238,7 @@ tracks {
 tracks::before {
   content: '';
   flex: 1;
-  border-bottom: 1px solid var(--light);
+  border-bottom: 1px solid #db1244;
   margin-right: 10px;
   opacity: 0.6;
 }
@@ -246,7 +246,7 @@ tracks::before {
 tracks::after {
   content: '';
   flex: 1;
-  border-bottom: 1px solid var(--light);
+  border-bottom: 1px solid #db1244;
   margin-left: 10px;
   opacity: 0.6;
 }
@@ -258,14 +258,12 @@ tracks::after {
 #bio .aescopy {
   width: 75%;
   margin: 0px auto 150px;
-  color: var(--light);
   text-align: justify;
   letter-spacing: 1px;
   line-height: 180%;
 }
 
 #bio .maincopy {
-  color: var(--light);
   text-align: justify;
   letter-spacing: 1px;
   line-height: 180%;
