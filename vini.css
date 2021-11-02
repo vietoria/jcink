@@ -1,21 +1,18 @@
 #vini {
-  position: absolute;
-  width: calc(100% - 200px);
-  height: calc(100% - 200px);
-  margin: 100px;
-  color: #000;
+  margin: 0 auto;
+  width: 100%;
+  height: calc(100vh - 380px);
   overflow: overlay;
   scroll-behavior: smooth;
 }
 
-
 #vini::-webkit-scrollbar {
-  width: 1px;
-  height: 1px;
+  width: 0px;
+  height: 0px;
 }
 
 #vini::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0);
 }
 
 #vini::-webkit-scrollbar-track {
@@ -32,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 #topcontainer {
@@ -56,9 +54,10 @@
   font-family: cursive;
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
-  font-size: clamp(80px, 13vw, 150px);
+  font-size: clamp(60px, 5.5vw, 110px);
   text-transform: lowercase;
   letter-spacing: 10px;
+  margin: 60px auto;
 }
 
 
@@ -103,7 +102,7 @@
 #vini arrow {
   font-size: 25px;
   position: absolute;
-  margin-top: 60px;
+  margin-top: 80px;
   color: #fff;
 }
 
@@ -196,7 +195,7 @@
   }
 }
 
-#proftxt .epc {
+#bio .epc {
   position: relative;
   margin: 25% auto;
 }
@@ -204,14 +203,13 @@
 #bio .ep {
   width: 100%;
   margin: 10px auto 0px;
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  color: #fff;
+  color: var(--light);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: clamp(8px, 1.5vw, 10px);
@@ -240,15 +238,17 @@ tracks {
 tracks::before {
   content: '';
   flex: 1;
-  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  border-bottom: 1px solid var(--light);
   margin-right: 10px;
+  opacity: 0.6;
 }
 
 tracks::after {
   content: '';
   flex: 1;
-  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  border-bottom: 1px solid var(--light);
   margin-left: 10px;
+  opacity: 0.6;
 }
 
 #bio {
@@ -258,14 +258,14 @@ tracks::after {
 #bio .aescopy {
   width: 75%;
   margin: 0px auto 150px;
-  color: #fff;
+  color: var(--light);
   text-align: justify;
   letter-spacing: 1px;
   line-height: 180%;
 }
 
 #bio .maincopy {
-  color: #fff;
+  color: var(--light);
   text-align: justify;
   letter-spacing: 1px;
   line-height: 180%;
@@ -273,7 +273,7 @@ tracks::after {
 
 #bio .maincopy lead {
   font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
   color: #db1244;
 }
 
