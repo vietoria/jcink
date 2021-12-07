@@ -3,7 +3,7 @@
   width: 350px;
   padding: 150px;
   padding-top: 50px;
-  background: #aaa;
+  background: #fff;
   border: solid 1px rgba(var(--ac1), 1);
   text-align: justify;
   color: #000;
@@ -49,7 +49,7 @@
   display: flex;
   border: double 1px transparent;
   border-radius: 100%;
-  background-image: linear-gradient(#aaa, #aaa), radial-gradient(circle at top left, var(--accent), #8fadcc);
+  background-image: linear-gradient(#fff, #fff), radial-gradient(circle at top left, var(--accent), #8fadcc);
   background-origin: border-box;
   background-clip: content-box, border-box;
   position: relative;
