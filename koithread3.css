@@ -1,5 +1,5 @@
 #koithread3 {
-  margin: 100px auto 100px;
+  margin: 100px auto 0px;
   width: 350px;
   padding: 150px;
   padding-top: 50px;
@@ -60,7 +60,7 @@
 
 .koi3credit,
 .koi3credit a {
-  margin: 0px auto 0px;
+  margin: 0px auto 100px;
   width: 650px;
   text-align: right;
   padding-top: 10px;
