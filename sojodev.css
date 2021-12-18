@@ -7,7 +7,6 @@ body {
   --ac1: 97,99,120; 
   --fc: #616378; 
   --fc1: 97,99,120; 
-  --Nimbus: Nimbus-Sans-Extended, Helvetica, sans-serif;
   --Nimbus: eurostile-extended, sans-serif;
   --IvyPresto: IvyPresto-Headline, Palatino, serif;
   --Helvetica: Helvetica, sans-serif;
@@ -47,7 +46,7 @@ assassin {
 	margin-top: 30px;
 }
 
-#blackbleed2 bigtitle {
+#blackbleed2 big1 {
 	font-family: var(--Nimbus);
     	font-weight: 900;
     	font-size: 1.5em;
