@@ -27,7 +27,6 @@ assassin {
 	margin-top: -30px; 
 	margin-left: -30px; 
 	color: #fff; 
-	font-family: var(--IvyPresto); 
 	line-height: 200%; 
 	letter-spacing: 1px;
 	justify-content: center;
@@ -39,7 +38,6 @@ assassin {
 	text-align: justify; 
 	text-transform: lowercase; 
 	margin: 50px auto 150px; 
-	font-family: var(--Prestige);
 }
 
 #blackbleed2 .bodytxt p {
