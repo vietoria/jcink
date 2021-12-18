@@ -27,6 +27,18 @@ assassin {
 	align-items: center;
 }
 
+#blackbleed2 .bodytxt {
+	width: 70%; 
+	text-align: justify; 
+	text-transform: lowercase; 
+	margin: 50px auto 150px; 
+	font-family: var(--Prestige);
+}
+
+#blackbleed2 .bodytxt p {
+	margin-top: 30px;
+}
+
 .moodboard {
   display: block;
   margin: auto;
