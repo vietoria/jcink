@@ -1,4 +1,6 @@
 @import url("https://use.typekit.net/nza8woh.css");
+@import url(https://use.typekit.net/ydw5zsv.css");
+
 /* ASSASSIN COLOR */
 body {
   --accent: #616378; 
@@ -37,6 +39,14 @@ assassin {
 
 #blackbleed2 .bodytxt p {
 	margin-top: 30px;
+}
+
+#blackbleed2 bigtitle {
+	font-family: var(--Nimbus);
+    	font-weight: 900;
+    	font-size: 1.5em;
+    	text-transform: uppercase;
+    	letter-spacing: .1em;
 }
 
 .moodboard {
