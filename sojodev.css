@@ -13,12 +13,12 @@ assassin {
 
 #blackbleed2 {
 	background: #111; 
-	width: calc(100% - 200px); 
+	width: calc(100% - 300px); 
 	padding: 150px;
 	margin: auto;
 	position: relative; 
-	margin-top: -50px; 
-	margin-left: -50px; 
+	margin-top: -30px; 
+	margin-left: -30px; 
 	color: #fff; 
 	font-family: var(--IvyPresto); 
 	line-height: 200%; 
