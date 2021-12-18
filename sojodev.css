@@ -1,0 +1,133 @@
+@import url("https://use.typekit.net/nza8woh.css");
+/* ASSASSIN COLOR */
+body {
+  --accent: #616378; 
+  --ac1: 97,99,120; 
+  --fc: #616378; 
+  --fc1: 97,99,120; 
+}
+
+assassin {
+  color: #616378; 
+}
+
+#blackbleed2 {
+	background: #111; 
+	width: calc(100% - 200px); 
+	padding: 150px;
+	margin: auto;
+	position: relative; 
+	margin-top: -50px; 
+	margin-left: -50px; 
+	color: #fff; 
+	font-family: var(--IvyPresto); 
+	line-height: 200%; 
+	letter-spacing: 1px;
+	justify-content: center;
+	align-items: center;
+}
+
+.moodboard {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  position: relative;
+}
+
+.moodboard table {
+  margin: auto;
+}
+
+.moodboard table td {
+  padding: 25px;
+}
+
+.moodboard img1 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.moodboard img2 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img3 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img4 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img5 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img6 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img7 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img8 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
+
+.moodboard img9 {
+  display: block;
+  width: 130px;
+  height: 130px;
+  outline: 1px solid var(--accent);
+  outline-offset: 10px;
+  background-size: cover;
+background-position: center;
+}
