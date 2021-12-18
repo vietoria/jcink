@@ -20,8 +20,8 @@ assassin {
 
 #blackbleed2 {
 	background: #111; 
-	width: calc(100% - 240px); 
-	padding: 150px;
+	width: calc(100% - 140px); 
+	padding: 100px;
 	margin: auto;
 	position: relative; 
 	margin-top: -30px; 
