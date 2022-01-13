@@ -3,10 +3,6 @@
 
 /* ASSASSIN COLOR */
 body {
-  --accent: #616378; 
-  --ac1: 97,99,120; 
-  --fc: #616378; 
-  --fc1: 97,99,120; 
   --Nimbus: eurostile-extended, sans-serif;
   --IvyPresto: IvyPresto-Headline, Palatino, serif;
   --Helvetica: Helvetica, sans-serif;
@@ -14,9 +10,6 @@ body {
 	
 }
 
-assassin {
-  color: #616378; 
-}
 
 #blackbleed2 {
 	background: #111; 
@@ -31,6 +24,13 @@ assassin {
 	letter-spacing: 1px;
 	justify-content: center;
 	align-items: center;
+}
+
+#blackbleed2 {
+  --accent: #616378; 
+  --ac1: 97,99,120; 
+  --fc: #616378; 
+  --fc1: 97,99,120; 
 }
 
 #blackbleed2 .bodytxt {
