@@ -1,0 +1,133 @@
+#vicbleed .bodytxt {
+    width: 70%;
+    text-align: justify;
+    margin: 50px auto;
+    font-family: var(--sourcepro);
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 13px;
+    line-height: 170%;
+  }
+  
+  #vicbleed .bodytxt p {
+    margin-top: 30px;
+  }  
+
+  #vicbleed .lilikoi {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto 50px;
+    text-decoration: none;
+    position: relative;
+    width: 450px;
+    flex: 1;
+    gap: 25px;
+  }
+  
+  
+  #vicbleed .lilikoi img1 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  
+  #vicbleed .lilikoi img2 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img3 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img4 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img5 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img6 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img7 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img8 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  
+  }
+  
+  #vicbleed .lilikoi img9 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid var(--accent);
+    outline-offset: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  

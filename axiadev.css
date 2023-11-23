@@ -1,0 +1,184 @@
+@import url("https://use.typekit.net/ydw5zsv.css");
+
+#vicbleed {
+	background: var(--lightest);
+	width: 610px;
+	margin: 100px auto 0px;
+	position: relative; 
+  left:0px;
+  top: 5px;
+	color: var(--dark); 
+	line-height: 200%; 
+	letter-spacing: 1px;
+	justify-content: center;
+	align-items: center;
+}
+
+#vicbleed {
+  --eurostile: eurostile-extended, sans-serif;
+  --sourcepro: 'Source Serif Pro', serif;
+  --futura: "futura-pt", sans-serif;
+  --Prestige: prestige-elite-std, monospace;
+}
+
+#bleedfooter {
+  border-radius: 20px;
+  height: 50px;
+  position: relative;
+  margin-top:-50px;
+  bottom: -30px;
+  background: var(--lightest);
+-webkit-box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 10%);
+}
+
+#vicbleed big1 {
+	font-family: var(--eurostile);
+    	font-weight: 900;
+    	font-size: 1.5em;
+    	text-transform: uppercase;
+    	letter-spacing: .1em;
+}
+
+
+#vicbleed small1 {
+	font-family: var(--sourcepro);
+    	font-weight: 400;
+    	font-size: .8em;
+    	text-transform: lowercase;
+    	letter-spacing: .2em;
+      font-style: italic;
+}
+
+
+#pikake {
+  margin: 0px auto 0px;
+  width: 500px;
+  background: var(--lightest);
+  text-align: justify;
+  color: var(--dark);
+  font-family: var(--sourcepro);
+  font-weight: 300;
+  letter-spacing: 0px;
+  font-size: 14px;
+  line-height: 170%;
+  padding-bottom: 50px;
+}
+
+#pikake b {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+#pikake p {
+  margin-top: 40px;
+}
+
+#pikake cover {
+  margin-left: -55px;
+  margin-top: -100px;
+  width: 610px;
+  height: 310px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid var(--accent);
+  margin-bottom: -1px;
+}
+
+#pikake coverb {
+  display: block;
+  width: calc(100% + 16px);
+  height: 400px;
+  background-size: cover;
+  background-attachment: static;
+  background-position: center;
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -ms-filter: blur(8px);
+  filter: blur(8px);
+  margin: -8px;
+}
+
+#pikake pikakeic {
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: -100px;
+  z-index: 98;
+  border: 1px solid var(--accent);
+}
+
+#pikake pikake {
+  display: block;
+  margin: 50px;
+}
+
+#pikake audioplayer {
+  display: block;
+  width: calc(100% + 100px);
+  margin-left: -50px;
+  background: var(--lightest);
+  position: sticky;
+  padding: 50px 0px 10px;
+  z-index: 99;
+  top: 100px;
+}
+
+#pikake .trackinfo {
+  width: 95%;
+  margin: 80px auto 0px;
+}
+
+
+#pikake .trackinfo ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+
+#pikake .trackinfo ol li::before {
+  content: counter(my-awesome-counter);
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid var(--dark);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  font-family: var(--eurostile);
+  font-size: .7em;
+  position: relative;
+  margin-left: -50px;
+}
+
+#pikake .trackinfo ol li {
+  counter-increment: my-awesome-counter;
+  margin-bottom: 50px;
+}
+
+
+#pikake notes {
+  display: block;
+  width: 415px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#pikake notes::before {
+  content: '• • •';
+  font-size: 8px;
+  color: var(--accent);
+  margin-right: 10px;
+  margin-left: -22px;
+  position: relative;
+  top: -2px;
+}
