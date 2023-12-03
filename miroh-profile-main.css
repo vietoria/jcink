@@ -1,0 +1,89 @@
+body { background:url(https://images.unsplash.com/photo-1580196969854-101dc0dc7a4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=4001&q=80);
+  background-size: 200%;
+  margin: 0px auto 100px;
+}
+
+.prof-stats {
+  width: 800px;
+  background: rgba(64, 46, 86, 0.5);
+  margin: auto;
+}
+
+.stats-table {
+  margin: auto;
+  padding: 50px 0px 50px 80px;
+  color: #fff; 
+  font-family: 'Abril Fatface', cursive;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.stats-table td {
+  width: 200px;
+  vertical-align: text-top;
+  padding: 10px 10px 30px 10px;
+  color: #fff; 
+  font-family: 'Abril Fatface', cursive;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.stats-table tr {
+}
+
+.stats-table b {
+  font-size: 8px; 
+  font-family: 'Space Mono', monospace;
+  text-transform: lowercase;
+  line-height: 300%; 
+  letter-spacing: 1px;
+}
+.stats-online {
+  width: 800px;
+  background: rgba(64, 46, 86, 0.5);
+  margin: auto;
+}
+
+.stats-onlinetext {
+  text-align: center;
+  color: #fff;
+  font-size: 9px; 
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  line-height: 300%; 
+  letter-spacing: 1px;
+  padding: 30px;
+}
+
+.prof-freeform {
+  margin: auto;
+  width: 800px;
+  background: #fff;
+}
+
+.freeform-copy {
+  margin: auto;
+  color: #000;
+  padding: 150px;
+  text-align: justify;
+  font-size: 10px; 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: lowercase;
+  line-height: 300%; 
+  letter-spacing: 0.5px;
+}
+
+.freeform-copy p {
+  padding-top: 20px;
+}
+
+.miniimg {
+  text-align: center;
+}
+.miniimg img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  display: inline;
+  margin: -25px 30px 0px;
+}

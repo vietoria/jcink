@@ -1,0 +1,258 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: calc(100vh - 200px);
+  background-image: url(https://i.postimg.cc/9CzX76S4/ja6LG1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  margin: 100px auto 100px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topicinfo {  
+width: 850px;
+margin: auto;
+line-height: 30px;
+margin-left: 70px;
+}
+
+.topicinfo desc {
+    text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: sans-serif;
+  font-size: 6px;
+  background: #fff;
+  padding: 5px;
+  padding-right: 1px;  
+}
+
+.topicname {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.topicact {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: sans-serif;
+  font-size: 6px;
+  color: #000;
+  font-weight: bold;
+  text-align: right;
+}
+
+.prowcont2 {
+display: block;
+}
+
+.prowcont {
+  width: 950px; 
+  height: 500px;
+  overflow: auto;
+  display: block;
+  scroll-behavior: smooth;
+
+}
+
+post1 {
+  min-height: 500px;
+  width: 950px;
+  margin: auto;
+  display: flex;
+}
+
+.mininame {
+  background: rgba(0,0,0,0);
+  margin-right: 30px;
+}
+
+.mininame name {
+  position: sticky;
+  top: 0px;
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  padding-right: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.miniav {
+  position: sticky;
+  top: 0px;
+  width: 300px;
+  height: 500px;
+  background: url(https://img.nickpic.host/FyJ0E6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.miniprof {
+  width: 200px;
+  height: 400px;
+  background: #fff;
+  opacity: 0;  
+  transition: .8s ease-in-out;
+  padding: 50px;
+  margin: auto;
+}
+
+
+.lastuser {
+  margin: auto;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: double 1px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #ffbbe2, #9999cb);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+}
+
+.userimg {
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+
+.miniprof mg {
+  color: var(--accent);
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.fd {
+  position: relative;
+  font-family: helvetica;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #ffbbe2, #9999cb);
+  border-image-slice: 1;
+}
+
+.fd2 {
+  position: relative;
+    font-family: helvetica;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 150px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #ffbbe2, #9999cb);
+  border-image-slice: 1;}
+
+.miniav:hover .miniprof {
+  opacity: 1;
+}
+
+.miniprof ali {
+  display: block;
+  position: relative;
+  font-family: helvetica;
+  font-size: 8px;
+  margin-top: 100px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.miniprof ali2 {
+  display: block;
+  position: relative;
+  font-family: helvetica;
+  font-size: 8px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.postcopy {
+  width: 550px;
+  font-size: 12px;
+  line-height: 200%;
+  text-align: justify;
+  background: #fff;
+}
+
+.bb {
+  width: 450px;
+  margin: 50px auto;
+    font-family: sans-serif;
+font-size: 8px;
+letter-spacing: 1px;
+}
+
+.bb p {
+  padding-top: 25px;
+}
+
+.postcontrols {
+  height: 35px;
+  width: calc(100%-30px);
+  position: sticky;
+  bottom: 0px;
+  background: #fff;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(to right, #ffbbe2, #9999cb);
+  border-image-slice: 1;  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: sans-serif;
+  font-size: 6px;
+  font-weight: bold;
+padding-top: 10px;
+padding-right: 30px;
+}
+
+.threadbottom {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #9999cb;
+  border-radius: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: sticky;
+  top: 430px;
+  margin-left: 890px;
+  z-index: 9;
+  text-decoration: none;
+}
+
+.threadbottom a {
+  text-decoration: none;
+  color: #9999cb;
+    font-size: 30px;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}

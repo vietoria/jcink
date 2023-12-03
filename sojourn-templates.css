@@ -1,0 +1,231 @@
+body {
+  background: #fff;
+  --accent: #616378;
+  --ac1: 97, 99, 120;
+  --fc: #616378;
+  --fc1: 97, 99, 120;
+}
+
+.koicredit,
+.koicredit a {
+  margin: 0px auto 0px;
+  width: 530px;
+  text-align: right;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 8px;
+}
+
+.koithread1 {
+  margin: 130px auto 0px;
+  width: 330px;
+  padding: 100px;
+  background: #fff;
+  border: solid 1px rgba(0, 0, 0, 1);
+  text-align: justify;
+  color: #000;
+  font-family: garamond;
+  letter-spacing: 0px;
+  font-size: 13px;
+  line-height: 170%;
+}
+
+.koithread1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -155px;
+  margin-bottom: 70px;
+}
+
+.koithread1 b,
+.koithread1 i,
+.koithread1 a {
+  color: rgba(201, 66, 66, 1);
+}
+
+
+.koithread2 {
+  margin: 100px auto 0px;
+  width: 330px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 100px;
+  text-align: justify;
+  font-family: garamond;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #000;
+  line-height: 170%;
+}
+
+.koithread2 b,
+.koithread2 i,
+.koithread2 a {
+  color: rgba(0, 0, 0, 1);
+}
+
+.koithread2 img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: #fff;
+  display: block;
+  margin-bottom: 70px;
+}
+
+.koithread2-line {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.koithread2-line::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid rgba(0, 0, 0, 1);
+}
+
+.koithread2-line::after {
+  margin-bottom: 70px;
+}
+
+.koithread2-notes {
+  padding: 50px 0px 0px 0px;
+  font-family: roboto;
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.koithread2-notes::before {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.koithread2-notes::before {
+  margin-right: 5px;
+}
+
+.koithread2-half {
+  margin: auto;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  width: 270px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  outline-offset: 25px;
+  outline: 1px solid #000;
+}
+
+#koithread3 {
+  margin: 100px auto 0px;
+  width: 350px;
+  padding: 150px;
+  padding-top: 50px;
+  background: #F9f9f9;
+  border: solid 1px rgba(var(--ac1), 1);
+  text-align: justify;
+  color: #000;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  font-size: 12px;
+  line-height: 170%;
+}
+
+#koithread3 b {
+  font-weight: 600;
+  color: #5d7791;
+}
+
+
+#koithread3 vline {
+  width: 1px;
+  height: 150px;
+  background: var(--accent);
+  display: block;
+  position: relative;
+  top: -50px;
+  margin: auto;
+}
+
+#koithread3 .koi3gif {
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  z-index: 99;
+}
+
+#koithread3 .gifcolor {
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: double 1px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(#F9f9f9, #F9f9f9), radial-gradient(circle at top left, var(--accent), #8fadcc);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  position: relative;
+  margin: auto;
+  top: -50px;
+  z-index: 99;
+}
+
+.koi3credit,
+.koi3credit a {
+  margin: 0px auto 0px;
+  width: 650px;
+  text-align: right;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+}
+
+.koi3credit img {
+  width: 50px;
+}
+
+#koithread3 .notes,
+#koithread3 .notes a {
+  padding: 50px 0px 0px 0px;
+  font-family: attribute-mono, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+#koithread3 .notes::before {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgba(var(--ac1), 0.9);
+}
+
+#koithread3 .notes::before {
+  margin-right: 5px;
+}

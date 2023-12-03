@@ -1,0 +1,89 @@
+body { 
+  margin: 50px auto; 
+  height: 100vh;
+  overflow: hidden;
+  background:url(https://static.tumblr.com/3b731eb12c03e29de50cdc398c6cc76b/1sj7tra/PMhpy0exh/tumblr_static_d8m2ke23xb4gks0kkg0skscsc.png);
+}
+
+.miniprofile {
+  width: 250px;
+  height: 450px;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 120px;
+}
+
+.miniprofbg {
+  width: 200px; 
+  height: 330px; 
+  background-color: #fff;
+  padding: 25px;
+  text-align: left;
+	margin-top: 445px;
+	z-index: 999!important;
+	transition: .8s ease-in-out;
+}
+
+.miniprofinfo {
+  position: relative;
+  margin-top: -50px;
+}
+
+.miniprofinfo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.mininame {
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 20px 0px 20px 00px; 
+}
+
+.miniproftext {
+    text-align: justify;
+    font-size: 8px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    line-height: 300%;
+    letter-spacing: 1px;
+    height: 275px;
+    overflow: auto;
+}
+
+.miniprofile:hover .miniprofbg {
+	margin-top: 200px;
+	transition: .8s ease-in-out;
+}
+
+.miniprofinfo-contain:hover .miniprofbg {
+	opacity: 1;
+	bottom: 60px;
+	margin-bottom: 280px;
+	transition: .8s ease-in-out;
+}
+
+.ministats {
+  margin: auto;
+width: 200px; 
+  background-color: rgba(7, 53, 113, 0.5);
+  padding: 25px;
+  text-align: center;
+  font-size: 8px; 
+font-family: 'Space Mono', monospace;
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 300%; 
+  letter-spacing: 1px;
+  text-decoration:none;
+  color: #fff;
+}
